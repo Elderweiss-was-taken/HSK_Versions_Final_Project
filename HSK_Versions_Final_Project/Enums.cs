@@ -6,6 +6,22 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
+/// Presence enums
+namespace HSK_Versions_Final_Project
+{
+    public partial class HSK_Presence__or_HSK_Version_change : StringEnum<HSK_Presence__or_HSK_Version_change>
+    {
+        public static readonly HSK_Presence__or_HSK_Version_change _111__Present_in_all_versions                                 = Define(0b_111.ToString());
+        public static readonly HSK_Presence__or_HSK_Version_change _110__Removed_in_HSK3_1__Present_in_HSK2_0_and_HSK3_0         = Define(0b_110.ToString());
+        public static readonly HSK_Presence__or_HSK_Version_change _101__Removed_in_HSK3_0__Put_back_in_HSK3_1                   = Define(0b_101.ToString());
+        public static readonly HSK_Presence__or_HSK_Version_change _100__HSK2_0_Exclusive___Never_added_back_later               = Define(0b_100.ToString());
+        public static readonly HSK_Presence__or_HSK_Version_change _011__NEW_CHAR___________Absent_in_HSK2_0__Added_since_HSK3_0 = Define(0b_011.ToString());
+        public static readonly HSK_Presence__or_HSK_Version_change _010__HSK3_0_Exclusive___Never_added_back_later               = Define(0b_010.ToString());
+        public static readonly HSK_Presence__or_HSK_Version_change _001__NEW_CHAR___________HSK3_1_Exclusive                     = Define(0b_001.ToString());
+        public static readonly HSK_Presence__or_HSK_Version_change _000__Not_a_HSK_character                                     = Define(0b_000.ToString());
+    }
+}
+
 /// Versions enums
 namespace HSK_Versions_Final_Project
 {
