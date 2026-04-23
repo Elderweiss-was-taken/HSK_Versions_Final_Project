@@ -28,7 +28,7 @@ namespace HSK_Versions_Final_Project
             _ = HSK_Presence__or_HSK_Version_change._001__NEW_CHAR___________HSK3_1_Exclusive                    .Give_All_Characters;
             Console.Write(HSK.Show_counts);
 
-            _ = 5;
+            _ = 55;
         }
     }
 }
