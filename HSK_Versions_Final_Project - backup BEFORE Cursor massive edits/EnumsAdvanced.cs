@@ -34,19 +34,17 @@ namespace HSK_Versions_Final_Project
         {
             get
             {
-                _ = HSK_Presence__or_HSK_Version_change._111__Present_in_all_versions.Give_All_Characters;
-
-                if (_111 == null || _110 == null || _101 == null || _100 == null || _011 == null || _010 == null || _001 == null) throw new Exception("");
+                _ = Give_All_Characters;
 
                 return this switch
                 {
-                    _ when this == HSK_Presence__or_HSK_Version_change._111__Present_in_all_versions => _111.WhereHasMultipleHskLevels(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._110__Removed_in_HSK3_1__Present_in_HSK2_0_and_HSK3_0 => _110.WhereHasMultipleHskLevels(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._101__Removed_in_HSK3_0__Put_back_in_HSK3_1 => _101.WhereHasMultipleHskLevels(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._100__HSK2_0_Exclusive___Never_added_back_later => _100.WhereHasMultipleHskLevels(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._011__NEW_CHAR___________Absent_in_HSK2_0__Added_since_HSK3_0 => _011.WhereHasMultipleHskLevels(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._010__HSK3_0_Exclusive___Never_added_back_later => _010.WhereHasMultipleHskLevels(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._001__NEW_CHAR___________HSK3_1_Exclusive => _001.WhereHasMultipleHskLevels(),
+                    _ when this == HSK_Presence__or_HSK_Version_change._111__Present_in_all_versions => _111,
+                    _ when this == HSK_Presence__or_HSK_Version_change._110__Removed_in_HSK3_1__Present_in_HSK2_0_and_HSK3_0 => _110,
+                    _ when this == HSK_Presence__or_HSK_Version_change._101__Removed_in_HSK3_0__Put_back_in_HSK3_1 => _101,
+                    _ when this == HSK_Presence__or_HSK_Version_change._100__HSK2_0_Exclusive___Never_added_back_later => _100,
+                    _ when this == HSK_Presence__or_HSK_Version_change._011__NEW_CHAR___________Absent_in_HSK2_0__Added_since_HSK3_0 => _011,
+                    _ when this == HSK_Presence__or_HSK_Version_change._010__HSK3_0_Exclusive___Never_added_back_later => _010,
+                    _ when this == HSK_Presence__or_HSK_Version_change._001__NEW_CHAR___________HSK3_1_Exclusive => _001,
                     _ => throw new Exception("code better")
                 };
             }
@@ -55,19 +53,17 @@ namespace HSK_Versions_Final_Project
         {
             get
             {
-                _ = HSK_Presence__or_HSK_Version_change._111__Present_in_all_versions.Give_All_Characters;
-
-                if (_111 == null || _110 == null || _101 == null || _100 == null || _011 == null || _010 == null || _001 == null) throw new Exception("");
+                _ = Give_All_Characters;
 
                 return this switch
                 {
-                    _ when this == HSK_Presence__or_HSK_Version_change._111__Present_in_all_versions => _111.WhereHasSingleHskLevel(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._110__Removed_in_HSK3_1__Present_in_HSK2_0_and_HSK3_0 => _110.WhereHasSingleHskLevel(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._101__Removed_in_HSK3_0__Put_back_in_HSK3_1 => _101.WhereHasSingleHskLevel(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._100__HSK2_0_Exclusive___Never_added_back_later => _100.WhereHasSingleHskLevel(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._011__NEW_CHAR___________Absent_in_HSK2_0__Added_since_HSK3_0 => _011.WhereHasSingleHskLevel(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._010__HSK3_0_Exclusive___Never_added_back_later => _010.WhereHasSingleHskLevel(),
-                    _ when this == HSK_Presence__or_HSK_Version_change._001__NEW_CHAR___________HSK3_1_Exclusive => _001.WhereHasSingleHskLevel(),
+                    _ when this == HSK_Presence__or_HSK_Version_change._111__Present_in_all_versions => _111,
+                    _ when this == HSK_Presence__or_HSK_Version_change._110__Removed_in_HSK3_1__Present_in_HSK2_0_and_HSK3_0 => _110,
+                    _ when this == HSK_Presence__or_HSK_Version_change._101__Removed_in_HSK3_0__Put_back_in_HSK3_1 => _101,
+                    _ when this == HSK_Presence__or_HSK_Version_change._100__HSK2_0_Exclusive___Never_added_back_later => _100,
+                    _ when this == HSK_Presence__or_HSK_Version_change._011__NEW_CHAR___________Absent_in_HSK2_0__Added_since_HSK3_0 => _011,
+                    _ when this == HSK_Presence__or_HSK_Version_change._010__HSK3_0_Exclusive___Never_added_back_later => _010,
+                    _ when this == HSK_Presence__or_HSK_Version_change._001__NEW_CHAR___________HSK3_1_Exclusive => _001,
                     _ => throw new Exception("code better")
                 };
             }

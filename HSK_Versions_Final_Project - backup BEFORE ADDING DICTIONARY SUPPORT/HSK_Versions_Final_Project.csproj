@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HSK2.0\HSK2.0_chars_level1.txt" />
+    <None Remove="HSK2.0\HSK2.0_chars_level2.txt" />
+    <None Remove="HSK2.0\HSK2.0_chars_level3.txt" />
+    <None Remove="HSK2.0\HSK2.0_chars_level4.txt" />
+    <None Remove="HSK2.0\HSK2.0_chars_level5.txt" />
+    <None Remove="HSK2.0\HSK2.0_chars_level6.txt" />
+    <None Remove="HSK3.0\HSK3.0_chars_level1.txt" />
+    <None Remove="HSK3.0\HSK3.0_chars_level2.txt" />
+    <None Remove="HSK3.0\HSK3.0_chars_level3.txt" />
+    <None Remove="HSK3.0\HSK3.0_chars_level4.txt" />
+    <None Remove="HSK3.0\HSK3.0_chars_level5.txt" />
+    <None Remove="HSK3.0\HSK3.0_chars_level6.txt" />
+    <None Remove="HSK3.0\HSK3.0_chars_level7-9.txt" />
+    <None Remove="HSK3.1\HSK3.1_chars_level1.txt" />
+    <None Remove="HSK3.1\HSK3.1_chars_level2.txt" />
+    <None Remove="HSK3.1\HSK3.1_chars_level3.txt" />
+    <None Remove="HSK3.1\HSK3.1_chars_level4.txt" />
+    <None Remove="HSK3.1\HSK3.1_chars_level5.txt" />
+    <None Remove="HSK3.1\HSK3.1_chars_level6.txt" />
+    <None Remove="HSK3.1\HSK3.1_chars_level7-9.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="HSK2.0\HSK2.0_chars_level1.txt" />
+    <EmbeddedResource Include="HSK2.0\HSK2.0_chars_level2.txt" />
+    <EmbeddedResource Include="HSK2.0\HSK2.0_chars_level3.txt" />
+    <EmbeddedResource Include="HSK2.0\HSK2.0_chars_level4.txt" />
+    <EmbeddedResource Include="HSK2.0\HSK2.0_chars_level5.txt" />
+    <EmbeddedResource Include="HSK2.0\HSK2.0_chars_level6.txt" />
+    <EmbeddedResource Include="HSK3.0\HSK3.0_chars_level1.txt" />
+    <EmbeddedResource Include="HSK3.0\HSK3.0_chars_level2.txt" />
+    <EmbeddedResource Include="HSK3.0\HSK3.0_chars_level3.txt" />
+    <EmbeddedResource Include="HSK3.0\HSK3.0_chars_level4.txt" />
+    <EmbeddedResource Include="HSK3.0\HSK3.0_chars_level5.txt" />
+    <EmbeddedResource Include="HSK3.0\HSK3.0_chars_level6.txt" />
+    <EmbeddedResource Include="HSK3.0\HSK3.0_chars_level7-9.txt" />
+    <EmbeddedResource Include="HSK3.1\HSK3.1_chars_level1.txt" />
+    <EmbeddedResource Include="HSK3.1\HSK3.1_chars_level2.txt" />
+    <EmbeddedResource Include="HSK3.1\HSK3.1_chars_level3.txt" />
+    <EmbeddedResource Include="HSK3.1\HSK3.1_chars_level4.txt" />
+    <EmbeddedResource Include="HSK3.1\HSK3.1_chars_level5.txt" />
+    <EmbeddedResource Include="HSK3.1\HSK3.1_chars_level6.txt" />
+    <EmbeddedResource Include="HSK3.1\HSK3.1_chars_level7-9.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StrEnum" Version="2.0.3" />
+  </ItemGroup>
+
+</Project>
